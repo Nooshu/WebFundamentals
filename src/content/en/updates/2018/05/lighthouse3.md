@@ -2,7 +2,7 @@ project_path: /web/_project.yaml
 book_path: /web/updates/_book.yaml
 description: TODO
 
-{# wf_updated_on: 2018-04-30 #}
+{# wf_updated_on: 2018-05-02 #}
 {# wf_published_on: 2018-04-18 #}
 {# wf_tags: lighthouse #}
 {# wf_featured_image: /web/progressive-web-apps/images/pwa-lighthouse.png #}
@@ -17,27 +17,38 @@ description: TODO
 
 Lighthouse 3.0 is out! New features include:
 
-* Faster audits and less fluctuation in scores.
-* New audit: First Contentful Paint
-* New report UI
-* Throttle configuration
+* TODO
 
 Major changes include:
 
-* 3G -> 4G
-* New scoring model.
-* Input configuration for Node and CLI.
-* JSON output.
-* First Interactive -> First CPU Idle
-* Perceptual Speed Index changed to Speed Index. Different measurement algorithm.
+* TODO
 
-## Summary of noticeable changes {: #summary }
+## First Contentful Paint {: #fcp }
 
-TODO this should be the intro para. Just focus on noticeable changes.
+## New Report UI {: #ui }
 
-This is a summary of the changes that you might notice as you migrate from Lighthouse 2 to 3.
+## Throttling configuration {: #config } 
 
-* Faster loading score, because of 4G
+## 4G is the new default throttling level {: #4g } 
+
+## New scoring model 
+
+## JSON output changes 
+
+## First Interactive renamed to First CPU Idle {: #fci }
+
+## Perceptual Speed Index changed to Speed Index {: #speedindex }
+
+## CSV output {: #csv }
+
+New to 3.0, report results can now be output in CSV. Each row contains
+the results for one audit, including:
+
+* The name of the category that the audit belongs to.
+* The name of the audit.
+* A description of the audit.
+* The score type used for the audit.
+* The score value.
 
 ## Faster audits and less variability {: #lantern }
 
@@ -65,18 +76,3 @@ got a lot of useful feedback.
 
 Thanks to [Jason](TODO) for conducting the user experience research, and to [Hwi](TODO) for
 designing the new UI. And thanks to all of the research participants for your valuable feedback.
-
-## New scoring model {: #scoring }
-
-## New default network throttling level: 4G {: #throttling }
-
-4G is now the default network throttling level.
-
-## Configuration changes {: #config }
-
-## Output changes {: #output }
-
-The Lighthouse team has collected a lot of feedback from 
-
-If you use Lighthouse in an automated workflow, such as CI, upgrading to Lighthouse 3 will
-unfortunately require major changes.

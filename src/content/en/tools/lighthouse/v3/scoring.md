@@ -2,7 +2,7 @@ project_path: /web/tools/_project.yaml
 book_path: /web/tools/_book.yaml
 description: A guide on how scoring works in Lighthouse v3.
 
-{# wf_updated_on: 2018-05-01 #}
+{# wf_updated_on: 2018-05-02 #}
 {# wf_published_on: 2017-12-27 #}
 {# wf_blink_components: N/A #}
 
@@ -29,12 +29,10 @@ TODO update screenshot. performance should be first. UI will change, too.
 
 ## The Performance score {: #perf }
 
-TODO patrick is getting data about how percentiles map to scores in v3
-
 Lighthouse returns a Performance score between 0 and 100. 0 is the lowest possible score. A 0
 score usually indicates an error in Lighthouse. If you see a 0 score repeatedly, please
-[file a bug on the Lighthouse repo][bug]{:.external}. 100 is the best possible score. Typically
-a score above 90 represents the top 5 percent of top-performing pages.
+[file a bug on the Lighthouse repo][bug]{:.external}. 100 is the best possible score. A 100 score
+represents the 98th percentile of top-performing sites.
 
 [bug]: https://github.com/GoogleChrome/lighthouse/issues/new
 
